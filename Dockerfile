@@ -6,4 +6,4 @@ ADD target/*.jar app.jar
 
 CMD ["java", "-jar", "app.jar", "--spring.profiles.active=prod"]
 
-EXPOSE 8080
+EXPOSE 8084
