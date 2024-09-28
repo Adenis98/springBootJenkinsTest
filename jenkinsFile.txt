@@ -18,7 +18,7 @@ pipeline {
       steps {
         dir("springBootJenkinsTest"){
             sh "mvn clean install"
-            sh "docker build -t doc springBootJenkinsTest"
+            sh "docker build -t docspringBootJenkinsTest"
         }
       }
     }
